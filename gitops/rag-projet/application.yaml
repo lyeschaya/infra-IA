@@ -4,9 +4,9 @@ metadata:
   name: rag-projet
   namespace: openshift-gitops
 spec:
-  project: infra-IA
+  project: infra-ia
   source:
-    repoURL: https://github.com/neutron-IT-organization/infra-IA.git
+    repoURL: https://github.com/neutron-IT-organization/infra-ia.git
     targetRevision: main
     path: gitops/rag-projet/base
   destination:

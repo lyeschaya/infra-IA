@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: infra-IA
+  name: infra-ia
   namespace: openshift-gitops
 spec:
   sourceRepos:
