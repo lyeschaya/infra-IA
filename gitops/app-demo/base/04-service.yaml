@@ -5,7 +5,7 @@ metadata:
   name: rag-api-service
 spec:
   selector:
-    app: rag-projet
+    app: app-demo
   ports:
     - name: http
       protocol: TCP

@@ -1,17 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: rag-projet
+  name: app-demo
   namespace: openshift-gitops
 spec:
   project: infra-ia
   source:
     repoURL: https://github.com/neutron-IT-organization/infra-ia.git
     targetRevision: main
-    path: gitops/rag-projet/base
+    path: gitops/app-demo/base
   destination:
     server: https://kubernetes.default.svc
-    namespace: rag-projet
+    namespace: app-demo
   syncPolicy:
     syncOptions:
     - CreateNamespace=true

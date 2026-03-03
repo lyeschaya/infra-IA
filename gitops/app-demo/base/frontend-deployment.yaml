@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: rag-frontend-container
-          image: quay.io/neutron-it/rag-projet-front:latest 
+          image: docker.io/nginxdemos/hello 
           securityContext:
             runAsUser: 0
           ports:

@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rag-projet
+  name: app-demo
   labels:
-    app: rag-projet
+    app: app-demo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: rag-projet
+      app: app-demo
   template:
     metadata:
       labels:
-        app: rag-projet
+        app: app-demo
     spec:
       containers:
-        - name: rag-projet
-          image: quay.io/neutron-it/rag-projet:latest
+        - name: app-demo
+          image: docker.io/kennethreitz/httpbin
           securityContext:
             runAsUser: 0
           ports:
