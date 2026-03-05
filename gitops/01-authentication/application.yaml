@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-demo
+  name: 01-authentication-app
   namespace: openshift-gitops
 spec:
   project: infra-ia
   source:
-    repoURL: https://github.com/neutron-IT-organization/infra-ia.git
+    repoURL: https://github.com/lyeschaya/infra-ia.git
     targetRevision: main
     path: gitops/01-authentication/base
   destination:

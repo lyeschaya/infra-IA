@@ -6,7 +6,7 @@ metadata:
 spec:
   project: infra-ia
   source:
-    repoURL: https://github.com/neutron-IT-organization/infra-ia.git
+    repoURL: https://github.com/lyeschaya//infra-ia.git
     targetRevision: main
     path: gitops/app-demo/base
   destination:
