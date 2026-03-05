@@ -1,0 +1,74 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: paris-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: prague-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tokyo-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: londres-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: rome-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sydney-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: rio-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: istanbul-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: berlin-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nairobi-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: madrid-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: toronto-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: singapour-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: stockholm-user
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: athenes-user

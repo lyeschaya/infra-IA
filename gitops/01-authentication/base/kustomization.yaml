@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - ./htpass-secret.yaml
 - ./oauth-patch.yaml
+- ./namespaces.yaml
